@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/images/icons8-whatsapp-16.png" />
+
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="./assets/output.css" />
+    <title>WhatsApp</title>
+  </head>
+  <body
+    class="w-full h-screen bg-no-repeat bg-cover p-10"
+    style="
+      background-image: url(https://wallpapersprinted.com/download/2/green_background_4-wallpaper-960x600.jpg);
+    "
+  >
+    <!-- head -->
+    <div class="text-center mb-5">
+      <h1 class="text-lg font-bold">
+        WhatsApp UI Challenge
+        <a
+          class="no-underline hover:text-white"
+          target="_blank"
+          href="https://github.com/SuriyaMassMsd"
+          >(Screen #1)</a
+        >
+      </h1>
+    </div>
+
+    <!-- main content -->
+    <section class="bg-white max-w-md mx-auto relative">
+      <div
+        class="bg-emerald-800 px-3 py-5  text-white flex items-center justify-between"
+      >
+        <h4 class="font-semibold">WhatsApp</h4>
+        <div class="flex gap-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="20"
+            height="20"
+            viewBox="0 0 50 50"
+            class="fill-current"
+          >
+            <path
+              d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 128 512"
+            class="fill-current"
+          >
+            <path
+              d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <ul
+        class="bg-emerald-800 text-white px-3 py-4 flex items-center space-x-4"
+      >
+      <li> 
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 512 512" 
+        class="fill-current"
+      >
+        <path
+          d="M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+        />
+      </svg>
+      </li>
+       
+        <li class="flex items-center  flex-1 justify-between ">
+          <div
+            class="uppercase font-medium text-sm flex items-center space-x-2"
+          >
+            <a href="index.html" >Chats</a>
+            <span
+              class="bg-white text-emerald-700 rounded-full w-5 h-5 p-0.5 text-xs flex items-center justify-center"
+              >15</span
+            >
+          </div>
+
+          <div
+            class="uppercase font-medium text-sm flex items-center space-x-2"
+          >
+            <span >Updates</span>
+          </div>
+          <div
+            class="relative uppercase font-medium text-sm flex items-center space-x-2"
+          >
+            <a href="" >calls</a>
+            <div class="absolute right-1 top-8 w-full h-1 bg-white"></div>
+
+          </div>
+        </li>
+    </ul>
+
+    <!-- chats -->
+    <div class="bg-white flex space-x-4 hover:cursor-pointer hover:bg-green-100 items-center px-3 py-3">
+        <div class="bg-green-700 p-3 rounded-full">
+          <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256"><path fill="currentColor" d="m87.5 151.52l64-64a12 12 0 0 1 17 17l-64 64a12 12 0 0 1-17-17Zm131-114a60.08 60.08 0 0 0-84.87 0l-30.12 30.09a12 12 0 0 0 17 17l30.07-30.06a36 36 0 0 1 50.93 50.92l-30.11 30.05a12 12 0 1 0 17 17l30.08-30.06a60.09 60.09 0 0 0-.03-84.91ZM135.52 171.4l-30.07 30.08a36 36 0 0 1-50.92-50.93l30.06-30.07a12 12 0 0 0-17-17l-30.04 30.1a60 60 0 0 0 84.88 84.87l30.06-30.07a12 12 0 0 0-17-17Z"/></svg>
+        </div>
+        <div class="flex-1">
+            <h4 class="font-semibold">Create call link</h4>
+            <p class="capitalize text-xs text-gray-600">Share a link for your WhatsApp call</p>
+        </div>
+        
+    </div>
+
+    <div>
+      <h3 class="ms-4 font-semibold text-md mb-3 mt-3">Recent</h3>
+    </div>
+    <div class="bg-white flex space-x-4 hover:cursor-pointer hover:bg-green-100 items-center px-3 py-3">
+        <div>
+            <img  class= "w-[54px] h-[54px] rounded-full" src="https://pbs.twimg.com/profile_images/1593714389584007168/2zQZrp8j_400x400.jpg" 
+            alt="jon">
+        </div>
+        <div class="flex-1">
+            <h4 class="font-semibold  text-red-600 ">Mamakuttyyyyy</h4>
+
+            <div class="flex mt-0.5">
+              <svg class="fill-current me-1 text-red-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 7L7 17m9 0H7V8"/></svg>
+            <p class="capitalize text-xs  text-gray-600">Today, 10:45 AM</p>
+              
+            </div>
+        </div>
+        <div class="flex flex-col items-center space-y-1">
+          <svg class="fill-current me-3 text-emerald-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z"/></svg>
+        </div>
+    </div>
+    <div class="bg-white flex space-x-4 hover:cursor-pointer hover:bg-green-100 items-center px-3 py-3">
+        <div>
+            <img  class= "w-[54px] h-[54px] rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO4bpK6L8p7EGJAzteBbIN2fc049BrlPIj859XCQMhr68XbUfxM735tV3xZsTNgb-EGzU&usqp=CAU" 
+            alt="jon">
+        </div>
+        <div class="flex-1">
+            <h4 class="font-semibold">Daenerys Targaryen &#128120; </h4>
+
+            <div class="flex mt-0.5">
+              <svg class="fill-current me-1 text-green-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 7L7 17m9 0H7V8"/></svg>
+            <p class="capitalize text-xs  text-gray-600">August 26, 08:45 AM</p>
+              
+            </div>
+        </div>
+        <div class="flex flex-col items-center space-y-1">
+          <svg class="fill-current text-green-600 me-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg>
+        </div>
+    </div>
+    <div class="bg-white flex space-x-4 hover:cursor-pointer hover:bg-green-100 items-center px-3 py-3">
+        <div>
+            <img  class= "w-[54px] h-[54px] rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Pv7zKOpr_F_V932gsG14ryJGEgHImjU82bbB-c4siwnOemf9i0k52zCfdjBN96CsT7Y&usqp=CAU" 
+            alt="jon">
+        </div>
+        <div class="flex-1">
+            <h4 class="font-semibold">Anbu [90'S Kid]</h4>
+
+            <div class="flex mt-0.5">
+              <svg class="fill-current me-1 text-green-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="m16 8.4l-8.9 8.9q-.275.275-.7.275t-.7-.275q-.275-.275-.275-.7t.275-.7L14.6 7H7q-.425 0-.713-.288T6 6q0-.425.288-.713T7 5h10q.425 0 .713.288T18 6v10q0 .425-.288.713T17 17q-.425 0-.713-.288T16 16V8.4Z"/></svg>
+            <p class="capitalize text-xs  text-gray-600">July 16, 09:45 PM</p>
+              
+            </div>
+        </div>
+        <div class="flex flex-col items-center space-y-1">
+          <svg class="fill-current me-3 text-emerald-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z"/></svg>
+        </div>
+    </div>
+    <div class="bg-white flex space-x-4 hover:cursor-pointer hover:bg-green-100 items-center px-3 py-3">
+      <div>
+          <img  class= "w-[54px] h-[54px] rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA83Rilg-iLpjajilZr2yXc0YbOk6HqY_3Ug&usqp=CAU" 
+          alt="jon">
+      </div>
+      <div class="flex-1">
+          <h4 class="font-semibold text-red-600">Romeo [2k Kid] (2)</h4>
+
+          <div class="flex mt-0.5">
+            <svg class="fill-current me-1 text-red-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 7L7 17m9 0H7V8"/></svg>
+            <p class="capitalize text-xs  text-gray-600">June 09, 12:45 AM</p>
+            
+          </div>
+      </div>
+      <div class="flex flex-col items-center space-y-1">
+        <svg class="fill-current text-green-600 me-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg>
+      </div>
+  </div>
+    <div class="bg-white flex space-x-4 hover:cursor-pointer hover:bg-green-100 items-center px-3 py-3">
+      <div>
+          <img  class= "w-[54px] h-[54px] rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU9vE9nltsacmfG4vGp_AYuR3d-mhBPeQPLA&usqp=CAU" 
+          alt="jon">
+      </div>
+      <div class="flex-1">
+          <h4 class="font-semibold">Dora [Explorer]</h4>
+
+          <div class="flex mt-0.5">
+            <svg class="fill-current me-1 text-green-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="m16 8.4l-8.9 8.9q-.275.275-.7.275t-.7-.275q-.275-.275-.275-.7t.275-.7L14.6 7H7q-.425 0-.713-.288T6 6q0-.425.288-.713T7 5h10q.425 0 .713.288T18 6v10q0 .425-.288.713T17 17q-.425 0-.713-.288T16 16V8.4Z"/></svg>
+            <p class="capitalize text-xs  text-gray-600">June 09, 12:45 AM</p>
+            
+          </div>
+      </div>
+      <div class="flex flex-col items-center space-y-1">
+        <svg class="fill-current text-green-600 me-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg>
+      </div>
+  </div>
+   
+    <div class="bg-white flex space-x-4 hover:cursor-pointer hover:bg-green-100 items-center px-3 py-3">
+      <div>
+          <img  class= "w-[54px] h-[54px] rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo2pTTSleQTV8_Fp6yNqaPWfxnuQcqc8GFKpvl9IH9WceUhM3xWvuI0MFQBnRKzCW-iRA&usqp=CAU" 
+          alt="jon">
+      </div>
+      <div class="flex-1">
+          <h4 class="font-semibold">Bujii</h4>
+
+          <div class="flex mt-0.5">
+            <svg class="fill-current me-1 text-red-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 7L7 17m9 0H7V8"/></svg>
+            <p class="capitalize text-xs  text-gray-600">June 09, 12:45 AM</p>
+            
+          </div>
+      </div>
+      <div class="flex flex-col items-center space-y-1">
+        <svg class="fill-current me-3 text-emerald-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z"/></svg>
+      </div>
+  </div>
+   
+  <div class="absolute bottom-4 cursor-pointer hover:bg-green-500 right-4 bg-emerald-700 text-black w-12 h-12 p-1 flex items-center justify-center rounded-xl">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M16 11V8h-3V6h3V3h2v3h3v2h-3v3h-2Zm3.95 10q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z"/></svg>
+  </div>
+    
+    </section>
+  </body>
+</html>
